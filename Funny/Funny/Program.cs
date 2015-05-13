@@ -12,8 +12,6 @@ namespace Funny
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("test");
-            Console.WriteLine("test");
-            Console.WriteLine("test");
         }
     }
 }
