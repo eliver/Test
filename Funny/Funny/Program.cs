@@ -10,7 +10,7 @@ namespace Funny
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi Branch test");
+            Console.WriteLine("Hi Branch test2");
         }
     }
 }
