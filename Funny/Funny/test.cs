@@ -8,7 +8,7 @@ namespace Funny
 {
     class test
     {
-        public void test()
+        public void Test()
         {
             System.Console.Write("Test");
         }
