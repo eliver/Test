@@ -10,7 +10,7 @@ namespace Funny
     {
         public void Test()
         {
-            System.Console.Write("Test");
+            System.Console.Write("Hello");
         }
     }
 }
