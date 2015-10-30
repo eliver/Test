@@ -13,5 +13,18 @@ namespace Funny
             Console.WriteLine("Hello World!");
             Console.WriteLine("Test");
         }
+
     }
+	public class Box : IEqualityComparer<Box>
+	{
+		private int height;
+		public bool Equals(Box b1, Box b2) => false;
+		public int GetHashCode(Box b) => b.height; // <- no compiler error - bug? 
+	}
+	public class BoxComparer : IEqualityComparer<Box>
+	{
+		public bool Equals(Box b1, Box b2) => false;
+	
+	}
+
 }
